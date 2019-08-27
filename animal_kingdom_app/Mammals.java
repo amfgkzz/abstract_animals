@@ -1,6 +1,6 @@
 package animal_kingdom_app;
 
-public interface Mammals
+public class Mammals extends AbstractAnimal
 {
     // Mammals move - walk, breath - lungs, reproduce - live births
     
