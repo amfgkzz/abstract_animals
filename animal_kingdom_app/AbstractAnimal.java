@@ -3,6 +3,7 @@ package animal_kingdom_app;
 public abstract class AbstractAnimal
 {
 
+    protected int plusId = 0;
     protected int id;
     protected String name;
     protected int yearDiscovered;
@@ -12,9 +13,10 @@ public abstract class AbstractAnimal
 
     }
 
-    public AbstractAnimal(int id, String name, int yearDiscovered)
+    public AbstractAnimal(String name, int yearDiscovered)
     {
-        this.id = id;
+        plusId++;
+        this.id = plusId;
         this.name = name;
         this.yearDiscovered = yearDiscovered;
     }
