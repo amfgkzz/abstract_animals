@@ -3,7 +3,7 @@ package animal_kingdom_app;
 public abstract class AbstractAnimal
 {
 
-    protected int plusId = 0;
+    protected static int plusId = 0;
     protected int id;
     protected String name;
     protected int yearDiscovered;
