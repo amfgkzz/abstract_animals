@@ -22,7 +22,7 @@ public abstract class AbstractAnimal
     }
 
     public abstract String move();
-    public abstract String breath();
+    public abstract String breathe();
     public abstract String reproduce();
 
     public int getId() 
