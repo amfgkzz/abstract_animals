@@ -19,9 +19,9 @@ public abstract class AbstractAnimal
         this.yearDiscovered = yearDiscovered;
     }
 
-    public abstract void move();
-    public abstract void breath();
-    public abstract void reproduce();
+    public abstract String move();
+    public abstract String breath();
+    public abstract String reproduce();
 
     public int getId() 
     {
