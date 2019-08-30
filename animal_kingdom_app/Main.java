@@ -2,8 +2,9 @@ package animal_kingdom_app;
 
 import java.util.*;
 
-public class Main
+public class Main implements Filter
 {
+
     public static List mammals() 
     {
         Mammal panda = new Mammal("Panda", 1869);
@@ -70,5 +71,6 @@ public class Main
         animals.addAll(fishes());
 
         animals.forEach((a)->System.out.println(a.showState()));
+
     }
 }
